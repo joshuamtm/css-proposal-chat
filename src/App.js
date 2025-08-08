@@ -54,9 +54,11 @@ function App() {
     // Check for phase/timeline queries
     if (input.includes('phase') || input.includes('timeline') || input.includes('how long') || input.includes('when')) {
       let response = "The engagement has 5 phases over 12 months:\n\n";
-      proposalData.sections.phases.timeline.forEach(phase => {
-        response += `• ${phase.phase} (${phase.duration}): ${phase.activities}\n\n`;
-      });
+      response += "**Phase 1 - Discovery & Planning (Months 1-2)** Collaborate with CSS/BPLC to finalize problem statements, target personas and key performance indicators. Convene cross-functional governance team and draft governance charter covering data-retention policies, AI-use guidelines and privacy oversight. Assist in soliciting proposals from AI development firms and prepare ballpark cost estimates.\n\n";
+      response += "**Phase 2 - Product & Prototype Development (Months 3-6)** Lead workshops to define user journeys, functional requirements and technical specifications. Collaborate with chosen development partner on agile sprints, building low-fidelity prototypes for testing. Design and oversee user-testing sessions with SNAP applicants, beneficiaries and CBO partners.\n\n";
+      response += "**Phase 3 - Implementation & Pilot (Months 7-10)** Guide build-out of advanced features including deduction guidance, multilingual interfaces, and local resource database. Conduct bias and privacy assessments with documented mitigation strategies. Support pilot protocols, training materials and success criteria development.\n\n";
+      response += "**Phase 4 - Evaluation & Scaling (Months 11-12)** Establish monitoring and feedback collection processes for ongoing product lifecycle management. Implement analytics frameworks for tracking user engagement and system performance. Create standardized feedback loops and workflows that CSS staff can maintain independently.\n\n";
+      response += "**Phase 5 - Continuous Improvement (Ongoing)** Model best practices for continuous product improvement that CSS staff can sustain independently. Facilitate retrospectives and sprint reviews. Coach CSS team on iterative development and user feedback integration while creating playbooks for ongoing product management.\n\n";
       return response + proposalData.quickResponses.disclaimer;
     }
     
