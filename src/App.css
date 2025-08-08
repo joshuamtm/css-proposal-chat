@@ -197,8 +197,10 @@ body {
   border-top: 1px solid var(--gray-medium);
   background: var(--gray-light);
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
+  max-height: 160px;
+  overflow-y: auto;
   scrollbar-width: thin;
 }
 
@@ -318,6 +320,7 @@ body {
 
   .quick-topics {
     padding: 12px;
+    max-height: 140px;
   }
 
   .input-area {

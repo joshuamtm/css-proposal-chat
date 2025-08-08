@@ -172,7 +172,7 @@ function App() {
     const message = {
       id: Date.now(),
       type: 'bot',
-      content: "To discuss this proposal in detail and get definitive answers to your questions, please contact Joshua and Kim from Meet the Moment directly. They'll be happy to schedule a free 30-minute consultation to understand your specific needs and explain how Meet the Moment can help your organization."
+      content: "To discuss this proposal in detail and get definitive answers to your questions, please contact Joshua and Kim from Meet the Moment directly. You can schedule a free 30-minute consultation at: https://calendly.com/joshua-and-kim. They'll be happy to understand your specific needs and explain how Meet the Moment can help your organization."
     };
     setMessages(prev => [...prev, message]);
   };
@@ -182,10 +182,14 @@ function App() {
     "What's a vCAIO?",
     "How much does this cost?",
     "What are the phases?",
+    "Why MTM?",
     "What about the SNAP Calculator?",
     "What will you deliver?",
     "Who develops the software?",
-    "Why 12 months?"
+    "Why 12 months?",
+    "What are CSS's responsibilities?",
+    "How do we measure success?",
+    "What happens after 12 months?"
   ];
 
   return (

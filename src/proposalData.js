@@ -171,23 +171,23 @@ export const proposalData = {
       category: "duration"
     },
     {
-      questions: ["What happens after 12 months?", "What about after the engagement?", "Is there ongoing support?"],
-      answer: "At the end of the initial 12-month term, the engagement automatically converts to a month-to-month arrangement under the same terms and pricing unless superseded by a new agreement or terminated with 60 days' notice. We also provide knowledge transfer and training to ensure CSS staff can maintain the product independently.",
+      questions: ["What happens after 12 months?", "What about after the engagement?", "Is there ongoing support?", "auto-renewal"],
+      answer: "At the end of the initial 12-month term, the engagement automatically converts to a month-to-month arrangement under the same terms and pricing ($7,500/month) unless superseded by a new agreement or terminated with 60 days' written notice. We also provide comprehensive knowledge transfer and training materials to ensure CSS staff can maintain and continue developing the product independently.",
       category: "post-engagement"
     },
     {
-      questions: ["What are the outcomes?", "What results can we expect?", "What will this achieve?"],
-      answer: "Expected outcomes include: Improved SNAP accessibility with higher enrollment rates, enhanced user experience with fewer application errors, and strengthened project governance with robust AI framework. Note that while we deliver all specified deliverables, ultimate outcomes depend on multiple factors including implementation and external conditions.",
+      questions: ["What are the outcomes?", "What results can we expect?", "What will this achieve?", "How do we measure success?"],
+      answer: "Expected outcomes include: 1) Improved SNAP Accessibility – Easier determination of eligibility leading to higher SNAP enrollment rates, 2) Enhanced User Experience – Reduction in application errors and increased satisfaction among users, 3) Strengthened Project Governance – Robust project-specific AI framework ensuring user privacy and compliance. Success will be measured through user engagement metrics, enrollment rate improvements, error reduction, and stakeholder satisfaction. Note that while we deliver all specified deliverables with excellence, ultimate organizational outcomes depend on multiple factors including internal implementation, external environment shifts, stakeholder engagement, and capacity considerations.",
       category: "outcomes"
     },
     {
-      questions: ["What's Phase 0?", "What's the pro-bono work?", "What's included before the engagement?"],
-      answer: "Phase 0 is pro-bono grant support provided before the engagement begins. It includes outlining the high-level product scope, engaging candidate development partners, gathering ballpark pricing inputs, and creating a draft Product Requirements Document (PRD) and rough order of magnitude cost estimate.",
+      questions: ["What's Phase 0?", "What's the pro-bono work?", "What's included before the engagement?", "Tell me about Phase 1 in detail"],
+      answer: "Phase 0 is pro-bono grant support provided before the engagement begins. It includes outlining the high-level product scope, engaging candidate development partners, gathering ballpark pricing inputs, and creating a draft Product Requirements Document (PRD) and rough order of magnitude (ROM) cost estimate for budgeting purposes. This phase helps CSS/BPLC prepare for the full engagement at no cost.",
       category: "phase0"
     },
     {
       questions: ["What assumptions are there?", "What do you need from CSS?", "What are CSS responsibilities?"],
-      answer: "Key assumptions: CSS names an internal project lead, provides access to stakeholders and data, covers licensing costs, provides timely feedback, and work is delivered remotely via Microsoft Teams. CSS retains primary responsibility for project leadership and stakeholder coordination while MTM provides strategic guidance.",
+      answer: "CSS responsibilities include: naming an internal project lead, providing access to key stakeholders and subject-matter experts, covering licensing costs for product implementation, providing timely feedback and approvals to maintain schedule, ensuring data access for MTM and vendors. CSS retains primary responsibility for project leadership and stakeholder coordination while MTM provides strategic AI guidance and project management. Work is delivered remotely via Microsoft Teams unless otherwise agreed.",
       category: "assumptions"
     },
     {
@@ -202,8 +202,13 @@ export const proposalData = {
     },
     {
       questions: ["How do I contact you?", "How can we reach out?", "Who should I talk to?"],
-      answer: "For definitive answers about this proposal and to discuss your specific needs, please contact Joshua and Kim from Meet the Moment directly. They can provide detailed information about the vCAIO services and answer any questions about implementation.",
+      answer: "For definitive answers about this proposal and to discuss your specific needs, please contact Joshua and Kim from Meet the Moment directly. You can schedule a free 30-minute consultation at: https://calendly.com/joshua-and-kim. They can provide detailed information about the vCAIO services and answer any questions about implementation.",
       category: "contact"
+    },
+    {
+      questions: ["Why MTM?", "Why Meet the Moment?", "Why should we choose you?"],
+      answer: "Meet the Moment brings 60+ years of combined nonprofit consulting experience with deep expertise in AI enablement, cybersecurity, and digital governance. As a nonprofit-exclusive technology consultancy, MTM understands mission-driven organizations and provides human-centered technology leadership without jargon or overwhelm. The team is certified in cybersecurity, data privacy, and AI ethics, offering transparent fixed-fee engagements tailored specifically for nonprofit needs. MTM's unique value is their commitment to equity and practical, right-sized support that builds strategic clarity and confidence.",
+      category: "why-mtm"
     }
   ],
   
