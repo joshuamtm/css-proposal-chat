@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/css-proposal-chat/static/css/main.3fb40029.css",
+    "main.js": "/css-proposal-chat/static/js/main.5553b120.js",
+    "index.html": "/css-proposal-chat/index.html",
+    "main.3fb40029.css.map": "/css-proposal-chat/static/css/main.3fb40029.css.map",
+    "main.5553b120.js.map": "/css-proposal-chat/static/js/main.5553b120.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fb40029.css",
+    "static/js/main.5553b120.js"
+  ]
+}
