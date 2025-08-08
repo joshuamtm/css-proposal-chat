@@ -202,7 +202,7 @@ export const proposalData = {
     },
     {
       questions: ["How do I contact you?", "How can we reach out?", "Who should I talk to?"],
-      answer: "For definitive answers about this proposal and to discuss your specific needs, please contact Joshua and Kim from Meet the Moment directly. You can schedule a free 30-minute consultation at: https://calendly.com/joshua-and-kim. They can provide detailed information about the vCAIO services and answer any questions about implementation.",
+      answer: "To discuss this proposal with Joshua & Kim directly, you can schedule a meeting with them at: https://calendly.com/joshua-and-kim. They are happy to meet with you, learn more about your needs and answer any questions you have.",
       category: "contact"
     },
     {

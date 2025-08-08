@@ -172,7 +172,7 @@ function App() {
     const message = {
       id: Date.now(),
       type: 'bot',
-      content: "To discuss this proposal in detail and get definitive answers to your questions, please contact Joshua and Kim from Meet the Moment directly. You can schedule a free 30-minute consultation at: https://calendly.com/joshua-and-kim. They'll be happy to understand your specific needs and explain how Meet the Moment can help your organization."
+      content: "To discuss this proposal with Joshua & Kim directly, you can schedule a meeting with them at: https://calendly.com/joshua-and-kim. They are happy to meet with you, learn more about your needs and answer any questions you have."
     };
     setMessages(prev => [...prev, message]);
   };
@@ -229,7 +229,22 @@ function App() {
               <div className="message-content">
                 {message.content.split('\n').map((line, i) => (
                   <React.Fragment key={i}>
-                    {line}
+                    {line.split(/(https?:\/\/[^\s]+)/g).map((part, j) => {
+                      if (part.match(/^https?:\/\/[^\s]+$/)) {
+                        return (
+                          <a 
+                            key={j} 
+                            href={part} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            style={{ color: message.type === 'bot' ? 'var(--css-cyan)' : 'white', textDecoration: 'underline' }}
+                          >
+                            {part}
+                          </a>
+                        );
+                      }
+                      return part;
+                    })}
                     {i < message.content.split('\n').length - 1 && <br />}
                   </React.Fragment>
                 ))}
